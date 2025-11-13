@@ -18,8 +18,8 @@ MAX_IMAGES = 10              # FIFO locale
 RAILWAY_API = "https://ai.hublo.eu/upload"  # endpoint d'entrée
 
 # === COULEUR DES GOMMETTES (BLEU FONCÉ SUR FOND CLAIR) ===
-LOWER_BLUE = np.array([100, 150, 30])
-UPPER_BLUE = np.array([130, 255, 255])
+LOWER_BLUE = np.array([85, 50, 70])
+UPPER_BLUE = np.array([110, 255, 255])
 PIXEL_THRESHOLD = 0.02  # % minimal de pixels bleus pour dire "gommette visible"
 
 # === FIFO IMAGES ===
